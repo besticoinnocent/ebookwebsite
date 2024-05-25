@@ -1,0 +1,520 @@
+*{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: Arial, Helvetica, sans-serif;
+}
+html{
+       scroll-behavior: smooth;
+}
+
+body{
+       width: 100%;
+       height: 100vh;
+}
+
+header{
+       background-image: url(/Images/images.jfif);
+       height: 700px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+
+/* ------  nav section start ------ */
+nav{
+       background-color: #000;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 60px;
+       opacity: 0.8;
+}
+
+nav img{
+       width: 100px;
+       transform: rotateZ(-90deg);
+       margin-right: 350px;
+}
+nav ul{
+       display: flex;
+
+}
+nav ul li{
+       list-style-type: none;
+       margin-left: 30px;
+}
+nav ul li a{
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+       transition: 0.5s;
+}
+nav ul li:hover{
+       color: #ee1919;
+}
+
+.download{
+       color: #ebeb86;
+       background-color: transparent;
+       text-align: center;
+       padding: 8px;
+       border-radius: 20px;
+       border: 2px solid #ebeb86;
+       text-decoration: none;
+       font-weight: bold;
+       width: 140px;
+}
+
+/* ------  nav section end ------ */
+
+/* ------  hero section start ------ */
+       .main{
+              display: flex;
+              justify-content: space-between;
+              padding-left: 30px;
+       }
+
+       .left-head{
+              display: flex;
+              justify-content: space-between;
+              gap: 20px;
+              flex-direction: column;
+              margin-top: 60px;
+
+       }
+
+       .left-head h2{
+              color: #ebeb86;
+              padding-bottom: 10px;
+              letter-spacing: 2px;
+              font-size: 30px;
+              text-shadow: 0 0 8px black;
+       }
+       .left-head h1{
+              color: white;
+              font-size: 50px;
+              text-shadow: 0 0 5px black;
+       }
+
+       .left-head .meet{
+              margin-top: 30px;
+              background: orange;
+              border: none;
+              text-align: center;
+              padding: 10px;
+              border-radius: 10px;
+       }
+       .left-head .meets{
+              background-color: transparent;
+       }
+       .left-head button a{
+              text-decoration: none;
+              color: white;
+              font-size: 20px;
+              font-weight: bold;
+              letter-spacing: 2px;
+       }
+       .left-head .mett:hover{
+              background-color: orangered;
+       }
+
+       .down{
+              background-color: orange;
+              width: 50rem;
+              height: 140px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              left: 0;
+              bottom: -88px;
+       }
+       .down img{
+              width: 80px;
+              height: 80px;
+              border-radius: 50px;
+              border: 7px solid white;
+             
+       }
+       .down h1{
+              color: black;
+              padding-right: 10px;
+       }
+       .down i{
+              padding-left: 5px;
+       }
+       .down p{
+              padding-left: 20px;
+       }
+       .second{
+              position: relative;
+              right: 17px;
+       }
+       .third{
+              position: relative;
+              right: 29px;
+       }
+       .fourth{
+              position: relative;
+              right: 45px;
+       }
+
+       .right-head{
+              z-index: 2;
+              margin-left: 10px;
+              width: 40%;
+              margin-top: 50px;
+       }
+
+       
+
+/* ------  hero section end ------ */
+
+/* ------------ about book section start ---------*/
+.captin{
+       display: flex;
+       justify-content: center;
+       gap: 50px;
+}
+.ri span{
+   color: red;    
+}
+.ri h4{
+       color: rgb(195, 118, 22);
+
+}
+
+
+
+
+
+#inside{
+       margin-top: 70px;
+       margin-bottom: 60px;
+}
+#inside .h{
+       text-align: center;
+       color: #ebeb86;
+       font-size: 25px;
+}
+#inside .y{
+       text-align: center;
+       font-size: 40px;
+       padding-bottom: 20px;
+}
+
+#inside-conc{
+       display: flex;
+       justify-content: center;
+       gap: 70px;
+}
+
+
+#iside-left{
+       border: 2px solid #ee1919;
+       border-radius: 12px;
+       padding: 20px;
+       margin-left: 50px;
+}
+
+#iside-left p{
+       background-color: #edeaea;
+       font-size: 18px;
+       border-radius: 25px;
+       height: 60px;
+       width: 250px;
+       margin-top: 10px;
+       padding-top: 10px;
+       padding-left: 17px;
+}
+
+       
+
+#iside-left p:hover{
+       background: #f53c3c;
+       color: white;
+}
+#spanH1{
+       background-color: rgb(232, 231, 231);
+       
+       padding-inline: 9px;
+       width: 800px;
+       padding-block: 20px;
+}
+#spanH1 span{
+       
+       color: #f4c60c;
+       font-size: xx-large;
+       display: inline-flex;
+       align-items: center;
+       padding-left: 370px;
+}
+#autor{
+       display: flex;
+       justify-content: center;
+       gap: 44px;
+       
+       
+}
+#autorR h5{
+       color: #ffcc00;
+       
+
+}
+
+#autorL{
+       background-color: white;
+       padding: 12px;
+         
+}
+#autorL img{
+       height: 190px;
+       width: 190px;
+       border-radius: 50%;
+       border: #f4c60c solid 7px;
+       padding: 2px;
+}
+#autor img:hover{
+       background-color: #c98217;
+       
+}
+#view{
+       background-color: rgb(238, 158, 10);
+       height: 500px;
+       padding-inline: 40px;
+       
+}
+
+.Rreview-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-block: 40px;
+}
+.review-1{
+     background-image: url(/Images/bg.jfif);
+     background-size: 100%;
+     background-position: center;
+     width: 370px;
+     margin-inline: 30px;
+     border-radius:30px; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+.high{
+       background-color: #f4c60c;
+       color: white;
+       text-align: center;
+       padding-inline: 30px;
+       padding-block: 20px;
+       border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       
+
+}
+
+.high img{
+       width: 80px;
+       height: 80px;
+       border-radius: 100%;
+       
+}
+
+.low{
+       color: white;
+       padding-block: 20px;
+
+}
+
+.low h1{
+       padding-bottom: 20px;
+       text-shadow: 0 0 4px black;
+}
+
+.low p{
+       line-height: 26px;
+       text-shadow: 0 0 4px black;
+}
+
+
+
+
+.enter{
+       background-color: black;
+       position: absolute;
+       width: 150px;
+       height: 200px;
+       display: none;
+
+}
+.enter ul{
+       display: flex;
+       flex-direction: column;
+       
+}
+.enter ul li{
+       font-size: 30px;
+       color: white;
+}
+
+.drop:hover .enter{
+      display: block;
+}
+
+
+
+
+
+
+#viewport{
+       display: flex;
+       align-items: center;
+       
+       gap: 90px;
+}
+#free{
+       background-color:rgb(236, 239, 240) ;
+       margin-left: 89px;
+       height: 360px;
+       margin-top: 55px;
+       width: 300px;
+       border-radius: 20px;
+       padding: 20px;
+}
+#free input{
+       margin: 6px;
+       height: 40px;
+       width: 260px;
+       border-radius: 20px;
+       border: rgb(228, 229, 230) solid 3px;
+       
+       padding-inline: 15px;
+       color: #000000;
+       
+       
+}
+
+
+
+
+       
+
+
+
+
+       
+       
+
+#free button{
+       
+       margin-left: 55px;
+       height: 40px;
+       margin-top: 6px;
+       width: 150px;
+       border-radius: 20px;
+       background-color: rgb(255, 199, 15);
+       border:white solid 2px;
+       
+
+       
+
+}
+#free button a{
+       color: white;
+       text-decoration: none;
+}
+#free button a:hover{
+       color: rgb(200, 13, 41);
+       transition: 4s;
+       
+}
+#free button:hover{
+       background-color: aqua;
+       transition: 4s;
+       
+       
+       
+}
+#free h1{
+       margin-left: 70px;
+       margin-bottom: 30px;
+}
+#say h5{
+       margin-right: 100px;
+       color: #db6510;
+       font-size: xlarge;
+       
+}
+#cart{
+       color: #000 !important;
+       
+       font-size: xx-large;
+}
+#say p{
+       color: white;
+       
+}
+#purpose{
+       color: crimson !important;
+       font-size: xx-large;
+}
+#say h6{
+       color: white;
+       font-size: medium;
+
+}
+#say h6 span{
+       color: #ee1919;
+       font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{}
+
+       
+       
+
+
+
