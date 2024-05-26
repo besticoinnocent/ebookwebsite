@@ -14,7 +14,7 @@ body{
 }
 
 header{
-       background-image: url(/Images/images.jfif);
+       background-image: url(Images/images.jfif);
        height: 700px;
        background-position: center;
        background-repeat: no-repeat;
@@ -294,7 +294,7 @@ nav ul li:hover{
        margin-block: 40px;
 }
 .review-1{
-     background-image: url(/Images/bg.jfif);
+     background-image: url(Images/bg.jfif);
      background-size: 100%;
      background-position: center;
      width: 370px;
